@@ -2,7 +2,7 @@ node{
 
     stage('Checkout')  
     {
-        git branch: "master", url: "https://github.com/edsherwin/onlineshop-new.git", credentialsId: "edsherwin"
+        git branch: "master", url: "https://github.com/edsherwin/webapp-shop.git", credentialsId: "edsherwin"
         //git 'https://github.com/edsherwin/onlineshop.git'
     } 
 
